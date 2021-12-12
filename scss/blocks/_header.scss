@@ -77,7 +77,16 @@
   }
   .btn-close{
     justify-content: right;
+    background: none;
+    opacity: 1;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+  .bx-x{
     color: #fff;
+    font-size: 25px;
   }
   
   
@@ -102,7 +111,17 @@
   }
   .mobile__btn{
     @include btn;
+    margin-left: 48px;
+  }
+  .offcanvas-header{
+    justify-content: right;
+    
   }
   
   
+}
+@media only screen and (max-width:470px) {
+  .header-site__logo{
+    width: 85%;
+  }
 }
