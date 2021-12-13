@@ -112,7 +112,7 @@
   .mobile__btn{
     @include btn;
     margin-left: 48px;
-    padding: 10px 15px;
+    padding: 10px 33px;
   }
   .offcanvas-header{
     justify-content: right;
@@ -124,5 +124,10 @@
 @media only screen and (max-width:470px) {
   .header-site__logo{
     width: 85%;
+  }
+  .mobile__btn{
+    @include btn;
+    margin-left: 48px;
+    padding: 10px 15px;
   }
 }

@@ -547,7 +547,7 @@ img {
     color: #FFFFFF;
     padding: 10px 33px;
     margin-left: 48px;
-    padding: 10px 15px;
+    padding: 10px 33px;
   }
   .mobile__btn:hover {
     background: #FFFFFF;
@@ -561,6 +561,25 @@ img {
 @media only screen and (max-width: 470px) {
   .header-site__logo {
     width: 85%;
+  }
+
+  .mobile__btn {
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #FFFFFF;
+    padding: 10px 33px;
+    margin-left: 48px;
+    padding: 10px 15px;
+  }
+  .mobile__btn:hover {
+    background: #FFFFFF;
+    color: #002529;
   }
 }
 .hero {
