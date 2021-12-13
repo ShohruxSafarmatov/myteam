@@ -671,6 +671,10 @@ img {
   }
 }
 @media only screen and (max-width: 576px) {
+  .offcanvas {
+    padding-top: 56px;
+  }
+
   .hero {
     padding-top: 80 px;
     padding-bottom: 200px;
