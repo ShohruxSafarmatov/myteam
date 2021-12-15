@@ -1,0 +1,115 @@
+.services{
+  padding: 140px 0;
+  background: #012F34;
+  position: relative;
+  &::before{
+    content: '';
+    display: block;
+    background-image: url(/img/services-right.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100px;
+    height: 245px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.serfvices__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  max-width: 641px;
+  &::before{
+    content: '';
+    display: block;
+    background: #F67E7E;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 56px;
+  }
+}
+
+
+.services__list{
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  max-width: 550px;
+}
+.won{
+  &::before{
+    content: '';
+    display: block;
+    background-image: url(/img/services-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 75px;  
+  }
+}
+.two{
+  &::before{
+    content: '';
+    display: block;
+    background-image: url(/img/services-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 75px;  
+  }
+  
+}
+
+.tree{
+  &::before{
+    content: '';
+    display: block;
+    background-image: url(/img/services-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 75px;  
+  }
+}
+
+.services__subtitle{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+}
+.services__text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+@media only screen and (max-width:768px) {
+  .serfvices__title{
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 427px;
+  }
+  .services__subtitle{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .services__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
