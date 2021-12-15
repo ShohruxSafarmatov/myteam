@@ -753,6 +753,10 @@ img {
   bottom: 0;
 }
 
+.services__row {
+  z-index: 1;
+}
+
 .serfvices__title {
   font-style: normal;
   font-weight: bold;
@@ -846,5 +850,29 @@ img {
   .services__text {
     font-size: 15px;
     line-height: 25px;
+  }
+
+  .services::before {
+    top: 0;
+    z-index: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .services {
+    padding: 64px 0;
+  }
+
+  .serfvices__title {
+    max-width: 210px;
+  }
+
+  .services__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__block {
+    text-align: center;
+    max-width: 327px;
   }
 }/*# sourceMappingURL=main.css.map */
