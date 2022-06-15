@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>myteam – Contact</title>
+    <script
+      src="https://kit.fontawesome.com/5225b7dab1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="contact">
+      <header class="header">
+        <a href="/">
+          <img src="images/logo.svg" alt="logo" class="logo header__logo" />
+        </a>
+        <img
+          src="images/icon-hamburger.svg"
+          alt="menu-icon"
+          class="header__nav-toggle"
+        />
+        <nav class="header__navigation">
+          <div class="header__nav-list">
+            <img
+              src="images/icon-close.svg"
+              alt="close-icon"
+              class="header__nav-close"
+            />
+            <a href="/" class="header__nav-link">home</a>
+            <a href="/about.html" class="header__nav-link">about</a>
+            <a href="/contact.html" class="btn btn--primary-light header__btn"
+              >contact us</a
+            >
+            <img
+              src="images/bg-pattern-about-1-mobile-nav-1.svg"
+              alt="nav-pattern"
+              class="header__nav-pattern"
+            />
+          </div>
+        </nav>
+      </header>
+
+      <div class="contact__content">
+        <section class="contact__intro">
+          <h1 class="heading-1 heading-1--sm contact__heading">Contact</h1>
+          <h2 class="heading--pink contact__subheading">Ask us about</h2>
+          <div class="contact__feature">
+            <img
+              src="images/icon-person.svg"
+              alt="icon-person"
+              class="contact__icon"
+            />
+            <p class="contact__text">The quality of our talent network</p>
+          </div>
+          <div class="contact__feature">
+            <img
+              src="images/icon-cog.svg"
+              alt="icon-cog"
+              class="contact__icon"
+            />
+            <p class="contact__text">Usage & implementation of our software</p>
+          </div>
+          <div class="contact__feature">
+            <img
+              src="images/icon-chart.svg"
+              alt="icon-chart"
+              class="contact__icon"
+            />
+            <p class="contact__text">How we help drive innovation</p>
+          </div>
+        </section>
+
+        <form class="form contact__form">
+          <div class="form__container">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Name"
+              aria-label="Name"
+              id="name"
+              name="name"
+              autocomplete="off"
+            ></input>
+          </div>
+          <div class="form__container" id="email-container">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Email Address"
+              aria-label="Email Address"
+              id="email"
+              name="email"
+              autocomplete="off"
+            ></input>
+          </div>
+          <div class="form__container">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Company Name"
+              aria-label="Company Name"
+              id="company"
+              name="company"
+              autocomplete="off"
+            ></input>
+          </div>
+          <div class="form__container">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Title"
+              aria-label="Title"
+              id="title"
+              name="title"
+              autocomplete="off"
+            ></input>
+          </div>
+          <div class="form__container form__container--high">
+            <textarea
+              class="form__input"
+              placeholder="Message"
+              aria-label="Message"
+              id="message"
+              name="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--secondary">submit</button>
+        </form>
+      </div>
+
+      <img src="images/bg-pattern-about-2-contact-1.svg" alt="pattern" class="contact__pattern contact__pattern--1">
+      <img src="images/bg-pattern-contact-2.svg" alt="pattern" class="contact__pattern contact__pattern--2">
+    </main>
+
+    <div class="success">
+      <div class="success__content">
+        <i class="success__close fas fa-times"></i>
+        <p class="success__text">Thank you for contacting us. We'll get in touch with you shortly.</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="footer__left">
+          <a href="/">
+            <img src="images/logo.svg" alt="logo" class="logo footer__logo" />
+          </a>
+          <div class="footer__nav">
+            <a href="/" class="footer__nav-link">home</a>
+            <a href="/about.html" class="footer__nav-link">about</a>
+          </div>
+        </div>
+        <div class="footer__text-column">
+          <p class="paragraph-sm footer__text">987 Hillcrest Lane</p>
+          <p class="paragraph-sm footer__text">Irvine, CA</p>
+          <p class="paragraph-sm footer__text">California 92714</p>
+          <p class="paragraph-sm footer__text">Call Us : 949-833-7432</p>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer__social">
+          <a href="/" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href="images/icon-facebook.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="/" class="footer__social-link">
+            <svg class="footer__social-icon">
+              <use xlink:href="images/icon-pinterest.svg#icon"></use>
+            </svg>
+          </a>
+          <a href="/" class="footer__social-link">
+            <svg class="footer__social-icon footer__social-icon--sm">
+              <use xlink:href="images/icon-twitter.svg#icon"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="paragraph-sm footer__text">
+          Copyright 2020. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+section, main {
+  position: relative;
+  overflow: hidden;
+}
+
+::selection {
+  background-color: $color-azure;
+  color: $color-turquoise-3;
+}
